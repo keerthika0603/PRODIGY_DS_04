@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sentiment Analysis Dashboard</title>
+
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    background:#f4f6f9;
+    padding:20px;
+}
+
+h1 {
+    text-align:center;
+    color:#2c3e50;
+}
+
+.card {
+    background:white;
+    padding:20px;
+    margin:20px auto;
+    width:80%;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.stats {
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+}
+
+.stat {
+    padding:15px;
+}
+
+img {
+    width:100%;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Social Media Sentiment Analysis Dashboard</h1>
+
+<div class="card">
+<h2>Summary</h2>
+
+<div class="stats">
+<div class="stat">
+<h3>10</h3>
+<p>Total Posts</p>
+</div>
+
+<div class="stat">
+<h3>2</h3>
+<p>Positive</p>
+</div>
+
+<div class="stat">
+<h3>0</h3>
+<p>Negative</p>
+</div>
+
+<div class="stat">
+<h3>8</h3>
+<p>Neutral</p>
+</div>
+</div>
+
+</div>
+
+<div class="card">
+<h2>Bar Chart</h2>
+<img src="bar_chart.png">
+</div>
+
+<div class="card">
+<h2>Pie Chart</h2>
+<img src="pie_chart.png">
+</div>
+
+<div class="card">
+<h2>Word Cloud</h2>
+<img src="wordcloud.png">
+</div>
+
+<div class="card">
+<h2>Conclusion</h2>
+<p>
+This report analyzes social media sentiments and categorizes posts into Positive,
+Negative and Neutral groups using Natural Language Processing (NLP).
+</p>
+</div>
+
+</body>
+</html>
